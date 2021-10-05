@@ -3,7 +3,7 @@
 ## What we're building
 ![App Screenshot](screenshot.png)
 
-## App specifications
+## UI specifications
 ### Background
 
 - Fill the entire screen
@@ -53,3 +53,11 @@ Constraints
 
 - 30 point right constraint to view
 - 20 point bottom constraint to view
+
+
+## Network request
+- Create a model file
+- Add url
+- Add URLRequest - [https://developer.apple.com/documentation/foundation/urlrequest](https://developer.apple.com/documentation/foundation/urlrequest)
+- Add URLSession - [https://developer.apple.com/documentation/foundation/urlsession](https://developer.apple.com/documentation/foundation/urlsession)
+- Add JSON parsing using the `jsonObject` method - [https://developer.apple.com/documentation/foundation/jsonserialization/](https://developer.apple.com/documentation/foundation/jsonserialization/)
