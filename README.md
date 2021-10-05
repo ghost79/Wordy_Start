@@ -55,9 +55,19 @@ Constraints
 - 20 point bottom constraint to view
 
 
+## Connecting the UI and ViewController
+- Create an outlet for the `UILabel` showing the word
+- Create an action for the `UIButton`
+
+
 ## Network request
 - Create a model file
 - Add url
 - Add URLRequest - [https://developer.apple.com/documentation/foundation/urlrequest](https://developer.apple.com/documentation/foundation/urlrequest)
 - Add URLSession - [https://developer.apple.com/documentation/foundation/urlsession](https://developer.apple.com/documentation/foundation/urlsession)
 - Add JSON parsing using the `jsonObject` method - [https://developer.apple.com/documentation/foundation/jsonserialization/](https://developer.apple.com/documentation/foundation/jsonserialization/)
+
+
+## Delegate
+- Create a protocol for the definition of the delegate
+- Add `ViewController` as the delegating class and update the `UILabel` with the result from the delegate
