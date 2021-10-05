@@ -62,7 +62,7 @@ Constraints
 
 ## Network request
 - Create a model file
-- Add url
+- Add url - [https://random-word-api.herokuapp.com/word?number=1&swear=1](https://random-word-api.herokuapp.com/word?number=1&swear=1)
 - Add URLRequest - [https://developer.apple.com/documentation/foundation/urlrequest](https://developer.apple.com/documentation/foundation/urlrequest)
 - Add URLSession - [https://developer.apple.com/documentation/foundation/urlsession](https://developer.apple.com/documentation/foundation/urlsession)
 - Add JSON parsing using the `jsonObject` method - [https://developer.apple.com/documentation/foundation/jsonserialization/](https://developer.apple.com/documentation/foundation/jsonserialization/)
